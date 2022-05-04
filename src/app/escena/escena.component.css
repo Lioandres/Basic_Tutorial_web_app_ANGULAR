@@ -1,6 +1,8 @@
 .text{
     text-align: center;
-    margin: 10px;
+    background-color: white;
+    opacity:60%;
+    margin: 20px;
     padding: 10px;
     border: 1px black solid;
     border-radius: 25px;
@@ -9,7 +11,7 @@
 
 .textSelected{
     text-align: center;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     border: 1px black solid;
     border-radius: 25px;
@@ -22,4 +24,21 @@ button{
     width:50%;
     padding: 10px;
     border: 1px black solid;
+}
+
+.pic0{
+    height: 650px;
+    background: url("./1.jpg")center no-repeat
+}
+.pic1{
+    height: 650px;
+    background: url("./2.jpg") center no-repeat
+}
+.pic2{
+    height: 650px;
+    background: url("./3.jpg") center no-repeat
+}
+.pic3{
+    height: 650px;
+    background: url("./4.jpg") center no-repeat
 }
