@@ -14,5 +14,9 @@ export class HomeComponent  {
      "L'heroi va decidir travessar la porta que el portava a casa",
      "Mentrestant, altres heroes no van tenir tanta sort en la seva elecció ..."
   ]
+  started:boolean=false
 
+  toStart(){
+    this.started=true
+  }
 }

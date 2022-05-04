@@ -1,1 +1,10 @@
+<div *ngIf="started===true; else noStarted">
+
 <app-escena [data]="sentences"></app-escena>
+
+</div>
+
+<ng-template #noStarted>
+    <p>Aquest projecte és un tutorial, on, mitjançant dos botons, podeu avançar o retrocedir en els consells, modificant-se el text d'ajuda i la imatge de fons</p>
+    <button (click)="toStart()">Comenzar</button>
+</ng-template>
