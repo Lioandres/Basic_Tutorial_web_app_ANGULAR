@@ -1,4 +1,13 @@
 
-<p class="text" *ngFor="let sentence of sentences">
+    <button (click)="prev()">Anterior</button>
+    <button (click)="next()">Siguent</button>
+
+
+<p 
+*ngFor="let sentence of sentences; let i=index"
+[ngClass]="{
+    text:           i!=currentSentence,
+    textSelected:   i===currentSentence
+}">
     {{sentence}}
 </p>
