@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-escena',
   templateUrl: './escena.component.html',
   styleUrls: ['./escena.component.css']
 })
-export class EscenaComponent implements OnInit {
+export class EscenaComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+@Input("data") sentences:string[]=[]
 
 }
