@@ -26,31 +26,11 @@ button{
     border: 1px black solid;
 }
 
-.pic0{
+.pic{
     height: 100%;
     width:100%;
-    position: absolute;
-    background: url("./1.jpg") no-repeat;
+    background: no-repeat;
     background-size:cover;
-}
-.pic1{
-    height: 100%;
-    width:100%;
     position: absolute;
-    background: url("./2.jpg") center no-repeat;
-    background-size:cover;
-}
-.pic2{
-    height: 100%;
-    width:100%;
-    position: absolute;
-    background: url("./3.jpg") center no-repeat;
-    background-size:cover;
-}
-.pic3{
-    height: 100%;
-    width:100%;
-    position: absolute;
-    background: url("./4.jpg") center no-repeat;
-    background-size:cover;
+   
 }

@@ -11,8 +11,9 @@ import { Sentences } from '../interfaces/interfaces';
 export class EscenaComponent {
 
 @Input("data") sentences:Sentences[]=[]
-
 currentSentence:number=0
+
+
 
 prev(){
   if ( this.currentSentence>0) this.currentSentence--
