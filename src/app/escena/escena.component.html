@@ -1,5 +1,5 @@
     <div  [ngClass]="{pic:true}"
-          [ngStyle]="{'background-image':this.sentences[currentSentence].img}" >
+          [ngStyle]="{'background-image':'url(assets/img/'+ sentences[currentSentence].img+')'}" >
      
 
     <button (click)="prev()">Anterior</button>
